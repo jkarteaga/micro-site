@@ -5,30 +5,43 @@ layout: base.njk
 <h1><img src="/assets/icon.png" alt="Microsite shape icon">Mendigoxalea</h1>
 <h2>Euzkadi Askatzeko !</h2>
 <h3>Kontaktua</h3>
-<form name="contact" data-netlify="true">
-  <div class="form-group row">
-    <label for="text" class="col-4 col-form-label">Izena | Nombre</label> 
-    <div class="col-8">
-      <input id="text" name="text" type="text" class="form-control">
-    </div>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Form Name</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Izena | Nombre</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="Keperin Jemein" class="form-control input-md" required="">
+    
   </div>
-  <div class="form-group row">
-    <label for="text1" class="col-4 col-form-label">email</label> 
-    <div class="col-8">
-      <input id="text1" name="text1" type="text" class="form-control" required="required">
-    </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="E-mail">E-mail</label>  
+  <div class="col-md-4">
+  <input id="E-mail" name="E-mail" type="text" placeholder="mendigoxalea@proton.me" class="form-control input-md" required="">
+    
   </div>
-  <div class="form-group row">
-    <label for="textarea" class="col-4 col-form-label">Mezua| Mwensaje</label> 
-    <div class="col-8">
-      <textarea id="textarea" name="textarea" cols="40" rows="5" class="form-control" aria-describedby="textareaHelpBlock"></textarea> 
-      <span id="textareaHelpBlock" class="form-text text-muted"></span>
-    </div>
-  </div> 
-  <div class="form-group row">
-    <div class="offset-4 col-8">
-      <button name="submit" type="submit" class="btn btn-primary">Bidali-Enviar</button>
-    </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="mezua">Mezua | Mensaje</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="mezua" name="mezua">idatzi hemen</textarea>
   </div>
-</form>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="send">Bidali | Enviar</label>
+  <div class="col-md-4">
+    <button id="send" name="send" class="btn btn-primary">Button</button>
+  </div>
+</div>
   
