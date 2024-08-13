@@ -4,17 +4,18 @@ layout: base.njk
 
 <h1><img src="/assets/icon.png" alt="Microsite shape icon">Mendigoxalea</h1>
 <h2>Euzkadi Askatzeko !</h2>
-<h3>Kontaktua</h3>
+
 <!-- INPRIMAKIA -->
-<h2 id="how-to-sell">Contact Us</h2>
-  <p>This is the page where we want the contact us form to be available...</p>
+<h3 id="how-to-sell">Kontaktua</h3>
+  <p>Idatzi hemen zure mezua</p>
+  <p>Escribe aquí tu mensaje</p>
   
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <form name="contact" data-netlify="true">
   <div class="form-group row">
-    <label for="text" class="col-4 col-form-label">name</label> 
+    <label for="text" class="col-4 col-form-label">Izena | Nombre</label> 
     <div class="col-8">
       <input id="text" name="text" type="text" class="form-control">
     </div>
@@ -26,15 +27,15 @@ layout: base.njk
     </div>
   </div>
   <div class="form-group row">
-    <label for="textarea" class="col-4 col-form-label">comments</label> 
+    <label for="textarea" class="col-4 col-form-label">Mezua | Mensaje </label> 
     <div class="col-8">
       <textarea id="textarea" name="textarea" cols="40" rows="5" class="form-control" aria-describedby="textareaHelpBlock"></textarea> 
-      <span id="textareaHelpBlock" class="form-text text-muted">what do you want to contact us about?</span>
+      <span id="textareaHelpBlock" class="form-text text-muted">Nola lagundu dezaketa?</span>
     </div>
   </div> 
   <div class="form-group row">
     <div class="offset-4 col-8">
-      <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+      <button name="submit" type="submit" class="btn btn-primary">Bidali | Enviar </button>
     </div>
   </div>
 </form>
